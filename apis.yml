@@ -1,0 +1,32 @@
+aid: postmon
+name: Postmon
+description: "An API to query Brazilian ZIP codes and orders easily, quickly and free"
+url: http://postmon.com.br
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Tracking"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Tracking
+  - Public APIs
+apis:
+  - name: Postmon
+    description: "An API to query Brazilian ZIP codes and orders easily, quickly and free"
+    humanURL: http://postmon.com.br
+    baseURL: http://postmon.com.br
+    tags:
+      - Tracking
+    properties:
+      - type: Documentation
+        url: http://postmon.com.br
+common:
+  - type: Website
+    url: http://postmon.com.br
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
