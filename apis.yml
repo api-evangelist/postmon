@@ -35,11 +35,12 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
   - Tracking
   - Public APIs
+  - Shipping
+  - Postal
 apis:
   - name: Postmon
     description: "An API to query Brazilian ZIP codes and orders easily, quickly and free"
     humanURL: http://postmon.com.br
-    baseURL: http://postmon.com.br
     tags:
       - Tracking
     properties:
